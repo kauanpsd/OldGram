@@ -1,0 +1,118 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+    list-style: none;
+    font-size: 1.6rem; /* 1 rem = 10px */
+    font-family: 'Source Sans Pro', sans-serif;
+    text-decoration: none;
+}
+
+
+section{
+    width: 100%;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 6.7rem;
+    border-bottom: 1px solid grey;
+    padding: 1.6rem 1.6rem;
+}
+
+img.logo{
+    width: 12.7rem;
+}
+
+.user-info{
+    margin: 1rem 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.user-info-text{
+    margin-left:0.7rem ;
+}
+
+.user-thumb{
+    width: 3.4rem;
+    border-radius: 50%;
+}
+
+h1.user-name{
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin: 0px;
+}
+
+p.user-location {
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+img.user-post{
+    width: 100%;
+}
+
+#interaction{
+    margin: 2.1rem 1.3rem ;
+}
+
+.react-icons{
+    display: flex;
+    justify-content: flex-start;
+    gap:1rem
+}
+
+.react-icons img{
+    width: 2.5rem;
+}
+
+.like-info{
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+    margin:1.1rem 0;
+}
+
+.like-info h1 {
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin: 0px;
+}
+
+.like-info p {
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin: 0px;
+}
+
+.commentary{
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+    margin:1.1rem 0;
+}
+
+.user-id{
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin: 0px;
+}
+
+.user-commentary {
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+div.break{
+    height: 2rem;
+    background-color: rgba(128, 128, 128, 0.171);
+}
